@@ -56,6 +56,10 @@ print(titlestr.find('a')) # returns 2 - index of first instance
 print(titlestr.replace('a', 'A')) # returns 'guArdiAns of the gAlAxy'
 
 # .join() method
+myarr = ['i', 'am', 'the', 'best']
+joinedarr = '-'.join(myarr)
+print(joinedarr)
+
 mylist = '-'.join(['ashley', 'is', 'awesome'])
 print(mylist) # returns ashley-is-awesome
 
